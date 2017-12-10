@@ -1,0 +1,6 @@
+*.txt
+*.pyc
+*.jpg
+**/my_net/
+*.gz
+**/saveNet/
