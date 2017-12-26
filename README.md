@@ -9,6 +9,6 @@ TensorFlow 学习笔记和分享，包含手写数字识别、猫狗识别和Ten
 
 * 猫狗识别
 
-博客地址：待编写
+博客地址：http://blog.csdn.net/u012373815/article/details/78768727
 
 * 验证码识别 （未完成）
