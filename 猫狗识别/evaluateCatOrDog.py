@@ -9,9 +9,6 @@ import os
   
 #从训练集中选取一张图片 
 def get_one_image(train): 
-    # n = len(train)
-    # #从训练集中随机抽取一张图片 
-    # ind = np.random.randint(0, n) 
     files = os.listdir(train)
     n = len(files)
     ind = np.random.randint(0,n)
@@ -25,11 +22,9 @@ def get_one_image(train):
   
   
 def evaluate_one_image():  
-    # train_dir = '/Users/yangyibo/GitWork/pythonLean/AI/猫狗识别/testImg/'
     train = '/Users/yangyibo/GitWork/pythonLean/AI/猫狗识别/testImg/'  
   
     # 获取图片路径集和标签集
-    # train, train_label = input_data.get_files(train_dir) 
     image_array = get_one_image(train)  
       
     with tf.Graph().as_default():  
